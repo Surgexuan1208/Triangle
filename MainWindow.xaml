@@ -4,26 +4,26 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Triangle"
-        mc:Ignorable="d" Height="332" Width="564" Title="Triangle">
+        mc:Ignorable="d" Height="480" Width="720" Title="Triangle">
     <Grid x:Name="grid" Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="35*"/>
             <ColumnDefinition Width="185*"/>
             <ColumnDefinition Width="344*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="數值1:" HorizontalAlignment="Left" Margin="25,55,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="input1" Margin="39,63,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
-        <Label Content="數值2:" HorizontalAlignment="Left" Margin="25,85,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="input2" Margin="39,89,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
-        <Label Content="數值3:" HorizontalAlignment="Left" Margin="25,115,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.404,0.545" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="input3" Margin="39,119,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
-        <Label Content="請輸入三邊長以計算" HorizontalAlignment="Left" Margin="25,16,0,0" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2"/>
+        <Label Content="數值1:" HorizontalAlignment="Left" Margin="19,90,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="16"/>
+        <TextBox x:Name="input1" Margin="39,94,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1" FontSize="16"/>
+        <Label Content="數值2:" HorizontalAlignment="Left" Margin="19,130,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="16"/>
+        <TextBox x:Name="input2" Margin="39,134,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1" FontSize="16"/>
+        <Label Content="數值3:" HorizontalAlignment="Left" Margin="19,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.404,0.545" Grid.ColumnSpan="2" FontSize="16"/>
+        <TextBox x:Name="input3" Margin="39,177,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1" FontSize="16"/>
+        <Label Content="三角形判斷器" HorizontalAlignment="Left" Margin="19,25,0,0" VerticalAlignment="Top" FontSize="24" Grid.ColumnSpan="2"/>
         <TextBox x:Name="textarea" Text="" Margin="19,25,10,25" Grid.Column="2" FontSize="20" VerticalScrollBarVisibility="Visible"/>
-        <Label Content="判斷結果:" HorizontalAlignment="Left" Margin="25,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.715,0.017" Grid.ColumnSpan="2"/>
-        <Button Content="計算" HorizontalAlignment="Left" Margin="0,154,0,0" VerticalAlignment="Top" Width="167" Height="29" Click="Button_Click" Grid.Column="1"/>
-        <Label x:Name="presult" Content="" HorizontalAlignment="Left" Margin="56,240,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.294" Grid.Column="1"/>
-        <Button Content="清除紀錄" Margin="210,267,10,0" VerticalAlignment="Top" Height="20" Grid.Column="2" Click="Button_Click_1"/>
-        <Button Content="清除所有數值" HorizontalAlignment="Left" Margin="0,199,0,0" VerticalAlignment="Top" Width="167" Height="29" Grid.Column="1" Click="Button_Click_2"/>
-
+        <Label Content="判斷結果:" HorizontalAlignment="Left" Margin="25,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.715,0.017" Grid.ColumnSpan="2" FontSize="14"/>
+        <Button Content="計算" Margin="25,232,18,0" VerticalAlignment="Top" Height="29" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <Label x:Name="presult" Content="" HorizontalAlignment="Left" Margin="54,327,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.294" Grid.Column="1" FontSize="18"/>
+        <Button Content="清除紀錄" Margin="210,415,10,0" VerticalAlignment="Top" Height="20" Grid.Column="2" Click="Button_Click_1"/>
+        <Button Content="清除所有數值" Margin="25,281,18,0" VerticalAlignment="Top" Height="29" Click="Button_Click_2" Grid.ColumnSpan="2"/>
+        <Label Content="請輸入三邊長以計算" HorizontalAlignment="Left" Margin="19,61,0,0" VerticalAlignment="Top" FontSize="14" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
