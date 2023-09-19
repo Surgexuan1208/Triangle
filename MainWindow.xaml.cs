@@ -46,7 +46,7 @@ namespace Triangle
             {
                 if (lens[0] < 1 || lens[1] < 1 || lens[2] < 1)
                 {
-                    MessageBox.Show("您輸入的三個邊長不能有0!\n請重新輸入!!", "輸入錯誤", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("您輸入的三個邊長不能小於1!\n請重新輸入!!", "輸入錯誤", MessageBoxButton.OK, MessageBoxImage.Error);
                     grid.Background = new SolidColorBrush(Color.FromRgb(255, 255, 255));
                 }
                 else
